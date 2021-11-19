@@ -1,0 +1,9 @@
+{{cookiecutter.title}}
+{{cookiecutter.title_underscore}}
+
+:date: {{cookiecutter.entry_date}}
+:tags: {{cookiecutter.tags}}
+:category: {{cookiecutter.category}}
+:slug: {{cookiecutter.slug}}
+:summary: {{cookiecutter.summary}}
+

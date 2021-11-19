@@ -1,0 +1,13 @@
+{
+    "entry_date": "{% now 'local' %}",
+    "slug_date": "{% now 'local', '%Y-%m-%d' %}",
+    "title": "Whatever",
+    "slug": "{{ cookiecutter.title | slugify }}",
+    "file_name": "entry.{{cookiecutter.slug_date}}.{{cookiecutter.slug}}.rst",
+    "directory_name": "__tmp__",
+    "tags": "",
+    "category": "public",
+    "summary": "",
+    "title_underscore": "",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
