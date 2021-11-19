@@ -1,5 +1,5 @@
 {{cookiecutter.title}}
-{{cookiecutter.title_underscore}}
+{{ "=" * cookiecutter.title|length }}
 
 :date: {{cookiecutter.entry_date}}
 :tags: {{cookiecutter.tags}}

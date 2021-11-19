@@ -8,6 +8,5 @@
     "tags": "",
     "category": "public",
     "summary": "",
-    "title_underscore": "",
     "_extensions": ["jinja2_time.TimeExtension"]
 }
