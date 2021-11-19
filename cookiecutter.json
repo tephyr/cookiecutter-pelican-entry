@@ -1,7 +1,7 @@
 {
-    "entry_date": "{% now 'local' %}",
-    "slug_date": "{% now 'local', '%Y-%m-%d' %}",
     "title": "Whatever",
+    "entry_date": "{% now 'local', '%Y-%m-%d %H:%M:%S%z' %}",
+    "slug_date": "{% now 'local' %}",
     "slug": "{{ cookiecutter.title | slugify }}",
     "file_name": "entry.{{cookiecutter.slug_date}}.{{cookiecutter.slug}}.rst",
     "directory_name": "__tmp__",
