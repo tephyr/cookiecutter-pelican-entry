@@ -1,0 +1,1 @@
+../../standard/hooks/post_gen_project.sh

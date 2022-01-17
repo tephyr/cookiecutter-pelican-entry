@@ -1,0 +1,12 @@
+{
+    "title": "Activity log for {% now 'local', '%d %b %Y' %}",
+    "entry_date": "{% now 'local', '%Y-%m-%d %H:%M:%S%z' %}",
+    "slug_date": "{% now 'local', '%Y-%m-%d' %}",
+    "slug": "activity-log-{{cookiecutter.slug_date}}",
+    "file_name": "entry.{{cookiecutter.slug_date}}.activity-log.rst",
+    "directory_name": "__tmp__",
+    "tags": "activity.log",
+    "category": "private",
+    "summary": "",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
