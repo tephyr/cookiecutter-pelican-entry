@@ -1,1 +1,29 @@
-../../standard/{{cookiecutter.directory_name}}/{{cookiecutter.file_name}}
+{{cookiecutter.title}}
+{{ "=" * cookiecutter.title|length }}
+
+:date: {{cookiecutter.entry_date}}
+:tags: {{cookiecutter.tags}}
+:category: {{cookiecutter.category}}
+:slug: {{cookiecutter.slug}}
+:summary: {{cookiecutter.summary}}
+
+Monday
+++++++
+
+Tuesday
++++++++
+
+Wednesday
++++++++++
+
+Thursday
+++++++++
+
+Friday
+++++++
+
+Saturday
+++++++++
+
+Sunday
+++++++
