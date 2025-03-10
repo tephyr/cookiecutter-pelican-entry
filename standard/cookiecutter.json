@@ -7,6 +7,5 @@
     "directory_name": "__tmp__",
     "tags": "",
     "category": "public",
-    "summary": "",
-    "_extensions": ["jinja2_time.TimeExtension"]
+    "summary": ""
 }

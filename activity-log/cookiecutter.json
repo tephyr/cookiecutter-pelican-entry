@@ -7,6 +7,5 @@
     "directory_name": "__tmp__",
     "tags": "activity.log",
     "category": "private",
-    "summary": "",
-    "_extensions": ["jinja2_time.TimeExtension"]
+    "summary": ""
 }
